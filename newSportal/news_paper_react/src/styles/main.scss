@@ -1,0 +1,37 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #343a40;
+
+  .navbar-brand {
+    color: #fff;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .form-inline {
+    display: flex;
+    align-items: center;
+
+    .form-control {
+      width: 200px;
+    }
+  }
+}
+
+.carousel-item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
